@@ -47,6 +47,7 @@ function displayAlerts(data) {
 
 const alerts = data.features || [];
   const summary = document.createElement("p");
+  
 
 summary.textContent = `${data.title}: ${alerts.length}`;
   alertsDisplay.appendChild(summary);
